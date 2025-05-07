@@ -28,7 +28,7 @@ public static class CourseEndpoints
                 !c.ShortDescription.Contains(search, StringComparison.OrdinalIgnoreCase));
         }
 
-        return Results.Ok(output);
+        return Results.Ok(output);  
     }
 
     private static IResult LoadCourseById(CourseData data, int id)
