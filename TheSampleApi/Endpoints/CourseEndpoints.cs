@@ -6,11 +6,11 @@ public static class CourseEndpoints
 {
     public static void AddCourseEndpoints(this WebApplication app)
     {
-        app.MapGet("/courses", LoadAllCourses);
-        app.MapGet("/courses/{id}", LoadCourseById);
+        app.MapGet("/courses", LoadAllCoursesAsync);
+        app.MapGet("/courses/{id}", LoadCourseByIdAsync);
     }
 
-    private static IResult LoadAllCourses(CourseData data, string? courseType, string? search)
+    private static async Task<IResult> LoadAllCoursesAsync(CourseData data, string? courseType, string? search, int? delay)
     {
         var output = data.Courses;
 
@@ -28,14 +28,36 @@ public static class CourseEndpoints
                 !c.ShortDescription.Contains(search, StringComparison.OrdinalIgnoreCase));
         }
 
+        if (delay is not null)
+        {
+            //Max delay is 5 minutes
+            if(delay > 300000)
+            {
+                delay = 300000;
+            }
+
+            await Task.Delay((int)delay);
+        }
+
         return Results.Ok(output);  
     }
 
-    private static IResult LoadCourseById(CourseData data, int id)
+    private static async Task<IResult> LoadCourseByIdAsync(CourseData data, int id, int? delay)
     {
         var output = data.Courses.SingleOrDefault(c => c.Id == id);
 
-        if(output is null)
+        if (delay is not null)
+        {
+            //Max delay is 5 minutes
+            if (delay > 300000)
+            {
+                delay = 300000;
+            }
+
+            await Task.Delay((int)delay);
+        }
+
+        if (output is null)
         {
             return Results.NotFound();
         }
