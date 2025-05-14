@@ -19,5 +19,6 @@ app.MapAllHealthChecks();
 app.AddRootEndpoints();
 app.AddErrorEndpoints();
 app.AddCourseEndpoints();
+app.AddMovieEndpoints();
 
 app.Run();

@@ -4,6 +4,9 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <ContainerRegistry>docker.io</ContainerRegistry>
+	  <ContainerRepository>0zcar/thesampleapi</ContainerRepository>
+	  <ContainerImageTags>v1.0.0;latest</ContainerImageTags>
   </PropertyGroup>
 
   <ItemGroup>

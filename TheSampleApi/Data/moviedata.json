@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Inception",
+    "director": "Christopher Nolan",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page"
+    ],
+    "genre": "Science Fiction",
+    "releaseDate": "2010-07-16",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea.",
+    "imageUrl": "https://example.com/inception.jpg",
+    "id": "2e0cb2b1-13d9-485d-96c9-e2a6726493fb"
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "genre": "Drama",
+    "releaseDate": "1994-09-23",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "imageUrl": "https://example.com/shawshank.jpg",
+    "id": "0761bc63-3601-427b-a220-2e19660a3ff6"
+  },
+  {
+    "name": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "genre": "Crime",
+    "releaseDate": "1972-03-24",
+    "description": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son.",
+    "imageUrl": "https://example.com/godfather.jpg",
+    "id": "738850e9-4f07-40c6-a75c-4dfccdb72dfb"
+  },
+  {
+    "name": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "actors": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "genre": "Crime",
+    "releaseDate": "1994-10-14",
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine.",
+    "imageUrl": "https://example.com/pulpfiction.jpg",
+    "id": "c878cf84-6b47-400f-9810-0cda2392f61c"
+  },
+  {
+    "name": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "genre": "Action",
+    "releaseDate": "2008-07-18",
+    "description": "Batman must accept one of the greatest psychological and physical tests when the Joker wreaks havoc on Gotham.",
+    "imageUrl": "https://example.com/darkknight.jpg",
+    "id": "81124de2-d87b-4282-afc6-dce2fdf74454"
+  },
+  {
+    "name": "Fight Club",
+    "director": "David Fincher",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "genre": "Drama",
+    "releaseDate": "1999-10-15",
+    "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more.",
+    "imageUrl": "https://example.com/fightclub.jpg",
+    "id": "e6f7ca28-20c6-48eb-ab8a-3afb2172927c"
+  },
+  {
+    "name": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "genre": "Drama",
+    "releaseDate": "1994-07-06",
+    "description": "The story of Forrest Gump, a simple man with a low IQ but good intentions.",
+    "imageUrl": "https://example.com/forrestgump.jpg",
+    "id": "5e81ec55-042d-4793-8a97-dcbab6fbdac2"
+  },
+  {
+    "name": "The Matrix",
+    "director": "The Wachowskis",
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "genre": "Science Fiction",
+    "releaseDate": "1999-03-31",
+    "description": "A computer hacker learns the reality he lives in is a simulated reality called the Matrix.",
+    "imageUrl": "https://example.com/matrix.jpg",
+    "id": "32331db4-c18b-4503-9af2-eaae2f6d985b"
+  },
+  {
+    "name": "Interstellar",
+    "director": "Christopher Nolan",
+    "actors": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "genre": "Science Fiction",
+    "releaseDate": "2014-11-07",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "imageUrl": "https://example.com/interstellar.jpg",
+    "id": "45e647c1-143e-40bd-8d93-016728ed09a1"
+  },
+  {
+    "name": "Gladiator",
+    "director": "Ridley Scott",
+    "actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "genre": "Action",
+    "releaseDate": "2000-05-05",
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
+    "imageUrl": "https://example.com/gladiator.jpg",
+    "id": "dbdf7d2a-cd12-4fdc-abd7-c669687d2098"
+  }
+]

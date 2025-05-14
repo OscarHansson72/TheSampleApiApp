@@ -11,5 +11,6 @@ public static class DependenciesConfig
         builder.Services.AddCorsServices();
         builder.Services.AddAllHealthChecks();
         builder.Services.AddTransient<CourseData>();
+        builder.Services.AddTransient<MovieData>();
     }
 }
